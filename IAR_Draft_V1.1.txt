@@ -1,0 +1,3113 @@
+[Settings]
+{
+    "showSlots": true,
+    "withReplacement": false,
+    "cardBack": "https://d2h5owxb2ypf43.cloudfront.net/cards/cardback.webp"
+}
+[CustomCards]
+[
+    {
+        "name": "Blood Harvest",
+        "rarity": "mythic",
+        "mana_cost": "0",
+        "collector_number": "IAR005",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR005.webp"
+        }
+    },
+    {
+        "name": "Devouring Doomwake (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "IAR006",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR006.webp"
+        }
+    },
+    {
+        "name": "Ingest the Unknown (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "IAR007",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR007.webp"
+        }
+    },
+    {
+        "name": "Consuming Appetite (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR008",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR008.webp"
+        }
+    },
+    {
+        "name": "Consuming Lash (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR009",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR009.webp"
+        }
+    },
+    {
+        "name": "Consuming Strength (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR010",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR010.webp"
+        }
+    },
+    {
+        "name": "Hellbound Assault (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR011",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR011.webp"
+        }
+    },
+    {
+        "name": "Hellbound Assault (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR012",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR012.webp"
+        }
+    },
+    {
+        "name": "Hellbound Assault (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR013",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR013.webp"
+        }
+    },
+    {
+        "name": "Rumbling Hunger (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR014",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR014.webp"
+        }
+    },
+    {
+        "name": "Rumbling Hunger (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR015",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR015.webp"
+        }
+    },
+    {
+        "name": "Rumbling Hunger (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR016",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR016.webp"
+        }
+    },
+    {
+        "name": "Beckoning Hunger (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR017",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR017.webp"
+        }
+    },
+    {
+        "name": "Beckoning Hunger (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR018",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR018.webp"
+        }
+    },
+    {
+        "name": "Beckoning Hunger (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR019",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR019.webp"
+        }
+    },
+    {
+        "name": "Cleave the Heavens (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR020",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR020.webp"
+        }
+    },
+    {
+        "name": "Cleave the Heavens (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR021",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR021.webp"
+        }
+    },
+    {
+        "name": "Cleave the Heavens (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR022",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR022.webp"
+        }
+    },
+    {
+        "name": "Feasting Shadowbeast (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR023",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR023.webp"
+        }
+    },
+    {
+        "name": "Feasting Shadowbeast (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR024",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR024.webp"
+        }
+    },
+    {
+        "name": "Feasting Shadowbeast (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR025",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR025.webp"
+        }
+    },
+    {
+        "name": "Feeding Frenzy (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR026",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR026.webp"
+        }
+    },
+    {
+        "name": "Feeding Frenzy (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR027",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR027.webp"
+        }
+    },
+    {
+        "name": "Feeding Frenzy (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR028",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR028.webp"
+        }
+    },
+    {
+        "name": "Gorging Shadowbeast (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR029",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR029.webp"
+        }
+    },
+    {
+        "name": "Gorging Shadowbeast (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR030",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR030.webp"
+        }
+    },
+    {
+        "name": "Gorging Shadowbeast (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR031",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR031.webp"
+        }
+    },
+    {
+        "name": "Satiate Bloodthirst (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR032",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR032.webp"
+        }
+    },
+    {
+        "name": "Satiate Bloodthirst (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR033",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR033.webp"
+        }
+    },
+    {
+        "name": "Satiate Bloodthirst (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR034",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR034.webp"
+        }
+    },
+    {
+        "name": "Blasmophet's Boon (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR035",
+        "type": "Shadow, Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR035.webp"
+        }
+    },
+    {
+        "name": "Consuming Command (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR036",
+        "type": "Shadow, Brute, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR036.webp"
+        }
+    },
+    {
+        "name": "Goremass Summoning (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR037",
+        "type": "Shadow, Brute, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR037.webp"
+        }
+    },
+    {
+        "name": "Apex Buster (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "IAR039",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR039.webp"
+        }
+    },
+    {
+        "name": "Battle Clearing Bellow (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "IAR040",
+        "type": "Brute, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR040.webp"
+        }
+    },
+    {
+        "name": "Peak Power (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR041",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR041.webp"
+        }
+    },
+    {
+        "name": "Peak Power (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR042",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR042.webp"
+        }
+    },
+    {
+        "name": "Peak Power (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR043",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR043.webp"
+        }
+    },
+    {
+        "name": "Rocktop Bellow (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR044",
+        "type": "Brute, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR044.webp"
+        }
+    },
+    {
+        "name": "Rocktop Bellow (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR045",
+        "type": "Brute, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR045.webp"
+        }
+    },
+    {
+        "name": "Rocktop Bellow (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR046",
+        "type": "Brute, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR046.webp"
+        }
+    },
+    {
+        "name": "Headstrong Stampede (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR047",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR047.webp"
+        }
+    },
+    {
+        "name": "Headstrong Stampede (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR048",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR048.webp"
+        }
+    },
+    {
+        "name": "Headstrong Stampede (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR049",
+        "type": "Brute, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR049.webp"
+        }
+    },
+    {
+        "name": "Rise to the Challenge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR050",
+        "type": "Brute, Block",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR050.webp"
+        }
+    },
+    {
+        "name": "Rise to the Challenge (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR051",
+        "type": "Brute, Block",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR051.webp"
+        }
+    },
+    {
+        "name": "Rise to the Challenge (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR052",
+        "type": "Brute, Block",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR052.webp"
+        }
+    },
+    {
+        "name": "Forsaken Strike (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "IAR057",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR057.webp"
+        }
+    },
+    {
+        "name": "Bridge of Damnation (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "IAR058",
+        "type": "Shadow, Necromancer, Action, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR058.webp"
+        }
+    },
+    {
+        "name": "Restless Templar (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "IAR059",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR059.webp"
+        }
+    },
+    {
+        "name": "Commit to Corruption (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR060",
+        "type": "Shadow, Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR060.webp"
+        }
+    },
+    {
+        "name": "Commit to Corruption (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR061",
+        "type": "Shadow, Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR061.webp"
+        }
+    },
+    {
+        "name": "Commit to Corruption (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR062",
+        "type": "Shadow, Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR062.webp"
+        }
+    },
+    {
+        "name": "Restless Looter (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR063",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR063.webp"
+        }
+    },
+    {
+        "name": "Restless Magister (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR064",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR064.webp"
+        }
+    },
+    {
+        "name": "Restless Quartermaster (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR065",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR065.webp"
+        }
+    },
+    {
+        "name": "Mark of Neverest (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR066",
+        "type": "Shadow, Necromancer, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR066.webp"
+        }
+    },
+    {
+        "name": "Mark of Pathstone (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR067",
+        "type": "Shadow, Necromancer, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR067.webp"
+        }
+    },
+    {
+        "name": "Mark of Ushering (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR068",
+        "type": "Shadow, Necromancer, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR068.webp"
+        }
+    },
+    {
+        "name": "Acrid Stench (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR069",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR069.webp"
+        }
+    },
+    {
+        "name": "Acrid Stench (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR070",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR070.webp"
+        }
+    },
+    {
+        "name": "Acrid Stench (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR071",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR071.webp"
+        }
+    },
+    {
+        "name": "Bone Mass (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR072",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR072.webp"
+        }
+    },
+    {
+        "name": "Bone Mass (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR073",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR073.webp"
+        }
+    },
+    {
+        "name": "Bone Mass (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR074",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR074.webp"
+        }
+    },
+    {
+        "name": "Malignant Migration (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR075",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR075.webp"
+        }
+    },
+    {
+        "name": "Malignant Migration (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR076",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR076.webp"
+        }
+    },
+    {
+        "name": "Malignant Migration (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR077",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR077.webp"
+        }
+    },
+    {
+        "name": "Ominous Toll (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR078",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR078.webp"
+        }
+    },
+    {
+        "name": "Ominous Toll (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR079",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR079.webp"
+        }
+    },
+    {
+        "name": "Ominous Toll (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR080",
+        "type": "Shadow, Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR080.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Solace (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR081",
+        "type": "Shadow, Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR081.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Strength (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR082",
+        "type": "Shadow, Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR082.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Swiftness (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR083",
+        "type": "Shadow, Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR083.webp"
+        }
+    },
+    {
+        "name": "Restless Cleric (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR084",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR084.webp"
+        }
+    },
+    {
+        "name": "Restless Corporal (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR085",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR085.webp"
+        }
+    },
+    {
+        "name": "Restless Outlaw (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR086",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR086.webp"
+        }
+    },
+    {
+        "name": "Restless Plowman (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR087",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR087.webp"
+        }
+    },
+    {
+        "name": "Restless Shieldmaiden (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR088",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR088.webp"
+        }
+    },
+    {
+        "name": "Restless Steed (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR089",
+        "type": "Shadow, Necromancer, Action, Zombie, Ally",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR089.webp"
+        }
+    },
+    {
+        "name": "Tome of Necrosis (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "IAR092",
+        "type": "Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR092.webp"
+        }
+    },
+    {
+        "name": "Bone Barrier (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "IAR093",
+        "type": "Necromancer, Defense, Reaction",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR093.webp"
+        }
+    },
+    {
+        "name": "Skeletal Puppetry (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR094",
+        "type": "Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR094.webp"
+        }
+    },
+    {
+        "name": "Skeletal Puppetry (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR095",
+        "type": "Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR095.webp"
+        }
+    },
+    {
+        "name": "Skeletal Puppetry (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR096",
+        "type": "Necromancer, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR096.webp"
+        }
+    },
+    {
+        "name": "Corpse Cover (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR097",
+        "type": "Necromancer, Block",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR097.webp"
+        }
+    },
+    {
+        "name": "Corpse Cover (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR098",
+        "type": "Necromancer, Block",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR098.webp"
+        }
+    },
+    {
+        "name": "Corpse Cover (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR099",
+        "type": "Necromancer, Block",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR099.webp"
+        }
+    },
+    {
+        "name": "Bonded Burial (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR100",
+        "type": "Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR100.webp"
+        }
+    },
+    {
+        "name": "Bonded Burial (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR101",
+        "type": "Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR101.webp"
+        }
+    },
+    {
+        "name": "Bonded Burial (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR102",
+        "type": "Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR102.webp"
+        }
+    },
+    {
+        "name": "Mutual Sacrifice (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR103",
+        "type": "Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR103.webp"
+        }
+    },
+    {
+        "name": "Mutual Sacrifice (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR104",
+        "type": "Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR104.webp"
+        }
+    },
+    {
+        "name": "Mutual Sacrifice (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR105",
+        "type": "Necromancer, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR105.webp"
+        }
+    },
+    {
+        "name": "Arknight Descendancy (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "IAR111",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR111.webp"
+        }
+    },
+    {
+        "name": "Sinspeaker Gloomblade (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "IAR112",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR112.webp"
+        }
+    },
+    {
+        "name": "Become the Shadow Lord (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "IAR113",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR113.webp"
+        }
+    },
+    {
+        "name": "Bloodsong Gloomblade (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR114",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR114.webp"
+        }
+    },
+    {
+        "name": "Cullingsong Gloomblade (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR115",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR115.webp"
+        }
+    },
+    {
+        "name": "Plundersong Gloomblade (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR116",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR116.webp"
+        }
+    },
+    {
+        "name": "Vexing Gloomblade (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR117",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR117.webp"
+        }
+    },
+    {
+        "name": "Vexing Gloomblade (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR118",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR118.webp"
+        }
+    },
+    {
+        "name": "Vexing Gloomblade (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR119",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR119.webp"
+        }
+    },
+    {
+        "name": "Embrace Sin (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR120",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR120.webp"
+        }
+    },
+    {
+        "name": "Forbidden Harvest (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR121",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR121.webp"
+        }
+    },
+    {
+        "name": "Promise of Power (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR122",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR122.webp"
+        }
+    },
+    {
+        "name": "Bloodfrenzy Gloomblade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR123",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR123.webp"
+        }
+    },
+    {
+        "name": "Bloodfrenzy Gloomblade (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR124",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR124.webp"
+        }
+    },
+    {
+        "name": "Bloodfrenzy Gloomblade (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR125",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR125.webp"
+        }
+    },
+    {
+        "name": "Demonbound Gloomblade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR126",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR126.webp"
+        }
+    },
+    {
+        "name": "Demonbound Gloomblade (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR127",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR127.webp"
+        }
+    },
+    {
+        "name": "Demonbound Gloomblade (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR128",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR128.webp"
+        }
+    },
+    {
+        "name": "Embrace Ursur (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR129",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR129.webp"
+        }
+    },
+    {
+        "name": "Embrace Ursur (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR130",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR130.webp"
+        }
+    },
+    {
+        "name": "Embrace Ursur (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR131",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR131.webp"
+        }
+    },
+    {
+        "name": "Murmuring Gloomblade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR132",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR132.webp"
+        }
+    },
+    {
+        "name": "Murmuring Gloomblade (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR133",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR133.webp"
+        }
+    },
+    {
+        "name": "Murmuring Gloomblade (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR134",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR134.webp"
+        }
+    },
+    {
+        "name": "Shadowake Gloomblade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR135",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR135.webp"
+        }
+    },
+    {
+        "name": "Shadowake Gloomblade (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR136",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR136.webp"
+        }
+    },
+    {
+        "name": "Shadowake Gloomblade (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR137",
+        "type": "Shadow, Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR137.webp"
+        }
+    },
+    {
+        "name": "Enshrine Sin (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR138",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR138.webp"
+        }
+    },
+    {
+        "name": "Enshrine Sin (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR139",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR139.webp"
+        }
+    },
+    {
+        "name": "Enshrine Sin (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR140",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR140.webp"
+        }
+    },
+    {
+        "name": "Otherworldly Sins (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR141",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR141.webp"
+        }
+    },
+    {
+        "name": "Otherworldly Sins (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR142",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR142.webp"
+        }
+    },
+    {
+        "name": "Otherworldly Sins (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR143",
+        "type": "Shadow, Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR143.webp"
+        }
+    },
+    {
+        "name": "Sonata Dystopia (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "IAR144",
+        "type": "Runeblade, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR144.webp"
+        }
+    },
+    {
+        "name": "Runechant of Greed (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "IAR145",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR145.webp"
+        }
+    },
+    {
+        "name": "Runic Disposition (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR146",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR146.webp"
+        }
+    },
+    {
+        "name": "Runic Disposition (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR147",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR147.webp"
+        }
+    },
+    {
+        "name": "Runic Disposition (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR148",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR148.webp"
+        }
+    },
+    {
+        "name": "Runic Reaving (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR149",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR149.webp"
+        }
+    },
+    {
+        "name": "Runic Reaving (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR150",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR150.webp"
+        }
+    },
+    {
+        "name": "Runic Reaving (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR151",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR151.webp"
+        }
+    },
+    {
+        "name": "Runechant of Envy (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR152",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR152.webp"
+        }
+    },
+    {
+        "name": "Runechant of Gluttony (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR153",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR153.webp"
+        }
+    },
+    {
+        "name": "Runechant of Lust (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR154",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR154.webp"
+        }
+    },
+    {
+        "name": "Runechant of Pride (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR155",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR155.webp"
+        }
+    },
+    {
+        "name": "Runechant of Sloth (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR156",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR156.webp"
+        }
+    },
+    {
+        "name": "Runechant of Wrath (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR157",
+        "type": "Runeblade, Instant, Aura",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR157.webp"
+        }
+    },
+    {
+        "name": "Grille of Repentance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR161",
+        "type": "Shadow, Equipment, Head",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR161.webp"
+        }
+    },
+    {
+        "name": "Robe of Repentance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR162",
+        "type": "Shadow, Equipment, Chest",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR162.webp"
+        }
+    },
+    {
+        "name": "Path of Repentance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR163",
+        "type": "Shadow, Equipment, Legs",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR163.webp"
+        }
+    },
+    {
+        "name": "Corrupt and Conquer (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "IAR164",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR164.webp"
+        }
+    },
+    {
+        "name": "Fallen Herald (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "IAR165",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR165.webp"
+        }
+    },
+    {
+        "name": "Open the Gate to i'Arathael (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "IAR166",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR166.webp"
+        }
+    },
+    {
+        "name": "Countdown to Extinction (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR167",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR167.webp"
+        }
+    },
+    {
+        "name": "Countdown to Extinction (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR168",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR168.webp"
+        }
+    },
+    {
+        "name": "Countdown to Extinction (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR169",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR169.webp"
+        }
+    },
+    {
+        "name": "Harbinger of Destruction (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR170",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR170.webp"
+        }
+    },
+    {
+        "name": "Rally the Shadow Horde (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR171",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR171.webp"
+        }
+    },
+    {
+        "name": "Rally the Shadow Horde (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR172",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR172.webp"
+        }
+    },
+    {
+        "name": "Rally the Shadow Horde (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR173",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR173.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Harrower (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR174",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR174.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Harvester (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR175",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR175.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Reaper (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR176",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR176.webp"
+        }
+    },
+    {
+        "name": "Tribute to Greater Power (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR177",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR177.webp"
+        }
+    },
+    {
+        "name": "Unbound by Shadow (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR178",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR178.webp"
+        }
+    },
+    {
+        "name": "Dimenxxional Ferryman (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR179",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR179.webp"
+        }
+    },
+    {
+        "name": "Planar Chaos (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR180",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR180.webp"
+        }
+    },
+    {
+        "name": "Rites of Nightfall (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR181",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR181.webp"
+        }
+    },
+    {
+        "name": "Breach Flesh (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR182",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR182.webp"
+        }
+    },
+    {
+        "name": "Breach Flesh (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR183",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR183.webp"
+        }
+    },
+    {
+        "name": "Breach Flesh (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR184",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR184.webp"
+        }
+    },
+    {
+        "name": "Corporeal Chasm (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR185",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR185.webp"
+        }
+    },
+    {
+        "name": "Corporeal Chasm (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR186",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR186.webp"
+        }
+    },
+    {
+        "name": "Corporeal Chasm (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR187",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR187.webp"
+        }
+    },
+    {
+        "name": "Ghostly Visit (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR188",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR188.webp"
+        }
+    },
+    {
+        "name": "Ghostly Visit (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR189",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR189.webp"
+        }
+    },
+    {
+        "name": "Ghostly Visit (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR190",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR190.webp"
+        }
+    },
+    {
+        "name": "Permanent Interment (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR191",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR191.webp"
+        }
+    },
+    {
+        "name": "Permanent Interment (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR192",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR192.webp"
+        }
+    },
+    {
+        "name": "Permanent Interment (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR193",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR193.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Bloodhound (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR194",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR194.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Bloodhound (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR195",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR195.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Bloodhound (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR196",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR196.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Ripper (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR197",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR197.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Ripper (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR198",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR198.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Ripper (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR199",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR199.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Walker (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR200",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR200.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Walker (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR201",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR201.webp"
+        }
+    },
+    {
+        "name": "Shadowrealm Walker (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR202",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR202.webp"
+        }
+    },
+    {
+        "name": "Void Wraith (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR203",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR203.webp"
+        }
+    },
+    {
+        "name": "Void Wraith (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR204",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR204.webp"
+        }
+    },
+    {
+        "name": "Void Wraith (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR205",
+        "type": "Shadow, Action, Attack",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR205.webp"
+        }
+    },
+    {
+        "name": "Abyssal Bite (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR206",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR206.webp"
+        }
+    },
+    {
+        "name": "Abyssal Force (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR207",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR207.webp"
+        }
+    },
+    {
+        "name": "Abyssal Rush (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR208",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR208.webp"
+        }
+    },
+    {
+        "name": "Darkest Hour (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR209",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR209.webp"
+        }
+    },
+    {
+        "name": "Darkest Hour (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR210",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR210.webp"
+        }
+    },
+    {
+        "name": "Darkest Hour (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR211",
+        "type": "Shadow, Action",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR211.webp"
+        }
+    },
+    {
+        "name": "Pull from Beyond (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR212",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR212.webp"
+        }
+    },
+    {
+        "name": "Pull from Beyond (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR213",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR213.webp"
+        }
+    },
+    {
+        "name": "Pull from Beyond (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR214",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR214.webp"
+        }
+    },
+    {
+        "name": "Step through Realms (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR215",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR215.webp"
+        }
+    },
+    {
+        "name": "Step through Realms (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR216",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR216.webp"
+        }
+    },
+    {
+        "name": "Step through Realms (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR217",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR217.webp"
+        }
+    },
+    {
+        "name": "Dam the Shadowake (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR218",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR218.webp"
+        }
+    },
+    {
+        "name": "Dam the Shadowake (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR219",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR219.webp"
+        }
+    },
+    {
+        "name": "Dam the Shadowake (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR220",
+        "type": "Shadow",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR220.webp"
+        }
+    },
+    {
+        "name": "Dark Arcanite Helm",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR224",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR224.webp"
+        }
+    },
+    {
+        "name": "Dark Arcanite Plating",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR225",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR225.webp"
+        }
+    },
+    {
+        "name": "Dark Arcanite Gloves",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR226",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR226.webp"
+        }
+    },
+    {
+        "name": "Dark Arcanite Boots",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "IAR227",
+        "type": "Generic, Equipment, Legs",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR227.webp"
+        }
+    },
+    {
+        "name": "Violent Gusto",
+        "rarity": "mythic",
+        "mana_cost": "0",
+        "collector_number": "IAR228",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR228.webp"
+        }
+    },
+    {
+        "name": "Exorcism",
+        "rarity": "mythic",
+        "mana_cost": "0",
+        "collector_number": "IAR229",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR229.webp"
+        }
+    },
+    {
+        "name": "Murmur of i'Arathael",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "IAR230",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR230.webp"
+        }
+    },
+    {
+        "name": "Rumbling of i'Arathael",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "IAR231",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR231.webp"
+        }
+    },
+    {
+        "name": "Tremor of i'Arathael",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "IAR232",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR232.webp"
+        }
+    },
+    {
+        "name": "Battle Prep (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "IAR233",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR233.webp"
+        }
+    },
+    {
+        "name": "Battle Prep (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "IAR234",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR234.webp"
+        }
+    },
+    {
+        "name": "Battle Prep (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "IAR235",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR235.webp"
+        }
+    },
+    {
+        "name": "Seek Horizon (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR236",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR236.webp"
+        }
+    },
+    {
+        "name": "Seek Horizon (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR237",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR237.webp"
+        }
+    },
+    {
+        "name": "Seek Horizon (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR238",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR238.webp"
+        }
+    },
+    {
+        "name": "Whispers Within (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "IAR239",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR239.webp"
+        }
+    },
+    {
+        "name": "Whispers Within (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "IAR240",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR240.webp"
+        }
+    },
+    {
+        "name": "Whispers Within (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "IAR241",
+        "type": "Generic",
+        "image_uris": {
+            "en": "https://prod-content.fabrary.io/cards/IAR241.webp"
+        }
+    }
+]
+[Layouts]
+	- EvenShadowThreeRareRareFoilCommon (21165)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- EvenShadowThreeRareRareFoilRare (3825)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- EvenShadowThreeRareRareFoilMajestic (510)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- EvenShadowThreeRareMajesticFoilCommon (8715)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- EvenShadowThreeRareMajesticFoilRare (1575)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- EvenShadowThreeRareMajesticFoilMajestic (210)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- EvenGenericRareRareFoilCommon (12699)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		2 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- EvenGenericRareRareFoilRare (2295)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		2 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- EvenGenericRareRareFoilMajestic (306)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		2 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- EvenGenericRareMajesticFoilCommon (5229)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		2 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- EvenGenericRareMajesticFoilRare (945)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		2 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- EvenGenericRareMajesticFoilMajestic (126)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		2 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- BruteLightClassTwoRareRareFoilCommon (7055)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- BruteLightClassTwoRareRareFoilRare (1275)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- BruteLightClassTwoRareRareFoilMajestic (170)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- BruteLightClassTwoRareMajesticFoilCommon (2905)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- BruteLightClassTwoRareMajesticFoilRare (525)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- BruteLightClassTwoRareMajesticFoilMajestic (70)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- BruteLightGenericRareRareFoilCommon (4233)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- BruteLightGenericRareRareFoilRare (765)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- BruteLightGenericRareRareFoilMajestic (102)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- BruteLightGenericRareMajesticFoilCommon (1743)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- BruteLightGenericRareMajesticFoilRare (315)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- BruteLightGenericRareMajesticFoilMajestic (42)
+		1 ShadowBrute
+		2 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- NecroLightClassTwoRareRareFoilCommon (7055)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- NecroLightClassTwoRareRareFoilRare (1275)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- NecroLightClassTwoRareRareFoilMajestic (170)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- NecroLightClassTwoRareMajesticFoilCommon (2905)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- NecroLightClassTwoRareMajesticFoilRare (525)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- NecroLightClassTwoRareMajesticFoilMajestic (70)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- NecroLightGenericRareRareFoilCommon (4233)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- NecroLightGenericRareRareFoilRare (765)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- NecroLightGenericRareRareFoilMajestic (102)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- NecroLightGenericRareMajesticFoilCommon (1743)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- NecroLightGenericRareMajesticFoilRare (315)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- NecroLightGenericRareMajesticFoilMajestic (42)
+		2 ShadowBrute
+		1 ShadowNecromancer
+		2 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- RunebladeLightClassTwoRareRareFoilCommon (7055)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- RunebladeLightClassTwoRareRareFoilRare (1275)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- RunebladeLightClassTwoRareRareFoilMajestic (170)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- RunebladeLightClassTwoRareMajesticFoilCommon (2905)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- RunebladeLightClassTwoRareMajesticFoilRare (525)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- RunebladeLightClassTwoRareMajesticFoilMajestic (70)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		2 Class
+		3 Shadow
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+	- RunebladeLightGenericRareRareFoilCommon (4233)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 Rfcommon
+	- RunebladeLightGenericRareRareFoilRare (765)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFRare
+	- RunebladeLightGenericRareRareFoilMajestic (102)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		2 Rare
+		1 RFMajestic
+	- RunebladeLightGenericRareMajesticFoilCommon (1743)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 Rfcommon
+	- RunebladeLightGenericRareMajesticFoilRare (315)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFRare
+	- RunebladeLightGenericRareMajesticFoilMajestic (42)
+		2 ShadowBrute
+		2 ShadowNecromancer
+		1 ShadowRuneblade
+		1 Class
+		3 Shadow
+		1 Generic
+		1 Equipment
+		1 Rare
+		1 Majestic
+		1 RFMajestic
+[ShadowBrute]
+8 Beckoning Hunger (red)
+8 Beckoning Hunger (yellow)
+8 Beckoning Hunger (blue)
+8 Cleave the Heavens (red)
+8 Cleave the Heavens (yellow)
+8 Cleave the Heavens (blue)
+8 Feasting Shadowbeast (red)
+8 Feasting Shadowbeast (yellow)
+8 Feasting Shadowbeast (blue)
+8 Feeding Frenzy (red)
+8 Feeding Frenzy (yellow)
+8 Feeding Frenzy (blue)
+8 Gorging Shadowbeast (red)
+8 Gorging Shadowbeast (yellow)
+8 Gorging Shadowbeast (blue)
+8 Satiate Bloodthirst (red)
+8 Satiate Bloodthirst (yellow)
+8 Satiate Bloodthirst (blue)
+8 Blasmophet's Boon (blue)
+8 Consuming Command (blue)
+8 Goremass Summoning (blue)
+[ShadowNecromancer]
+8 Acrid Stench (red)
+8 Acrid Stench (yellow)
+8 Acrid Stench (blue)
+8 Bone Mass (red)
+8 Bone Mass (yellow)
+8 Bone Mass (blue)
+8 Malignant Migration (red)
+8 Malignant Migration (yellow)
+8 Malignant Migration (blue)
+8 Ominous Toll (red)
+8 Ominous Toll (yellow)
+8 Ominous Toll (blue)
+8 Shadowrealm Solace (blue)
+8 Shadowrealm Strength (red)
+8 Shadowrealm Swiftness (yellow)
+8 Restless Cleric (red)
+8 Restless Corporal (red)
+8 Restless Outlaw (red)
+8 Restless Plowman (red)
+8 Restless Shieldmaiden (red)
+8 Restless Steed (red)
+[ShadowRuneblade]
+8 Bloodfrenzy Gloomblade (red)
+8 Bloodfrenzy Gloomblade (yellow)
+8 Bloodfrenzy Gloomblade (blue)
+8 Demonbound Gloomblade (red)
+8 Demonbound Gloomblade (yellow)
+8 Demonbound Gloomblade (blue)
+8 Embrace Ursur (red)
+8 Embrace Ursur (yellow)
+8 Embrace Ursur (blue)
+8 Murmuring Gloomblade (red)
+8 Murmuring Gloomblade (yellow)
+8 Murmuring Gloomblade (blue)
+8 Shadowake Gloomblade (red)
+8 Shadowake Gloomblade (yellow)
+8 Shadowake Gloomblade (blue)
+8 Enshrine Sin (red)
+8 Enshrine Sin (yellow)
+8 Enshrine Sin (blue)
+8 Otherworldly Sins (red)
+8 Otherworldly Sins (yellow)
+8 Otherworldly Sins (blue)
+[Class]
+4 Headstrong Stampede (red)
+4 Headstrong Stampede (yellow)
+4 Headstrong Stampede (blue)
+4 Rise to the Challenge (red)
+4 Rise to the Challenge (yellow)
+4 Rise to the Challenge (blue)
+4 Bonded Burial (red)
+4 Bonded Burial (yellow)
+4 Bonded Burial (blue)
+4 Mutual Sacrifice (red)
+4 Mutual Sacrifice (yellow)
+4 Mutual Sacrifice (blue)
+4 Runechant of Envy (yellow)
+4 Runechant of Gluttony (yellow)
+4 Runechant of Lust (yellow)
+4 Runechant of Pride (yellow)
+4 Runechant of Sloth (yellow)
+4 Runechant of Wrath (yellow)
+[Shadow]
+6 Breach Flesh (red)
+6 Breach Flesh (yellow)
+6 Breach Flesh (blue)
+6 Corporeal Chasm (red)
+6 Corporeal Chasm (yellow)
+6 Corporeal Chasm (blue)
+6 Ghostly Visit (red)
+6 Ghostly Visit (yellow)
+6 Ghostly Visit (blue)
+6 Permanent Interment (red)
+6 Permanent Interment (yellow)
+6 Permanent Interment (blue)
+6 Shadowrealm Bloodhound (red)
+6 Shadowrealm Bloodhound (yellow)
+6 Shadowrealm Bloodhound (blue)
+6 Shadowrealm Ripper (red)
+6 Shadowrealm Ripper (yellow)
+6 Shadowrealm Ripper (blue)
+6 Shadowrealm Walker (red)
+6 Shadowrealm Walker (yellow)
+6 Shadowrealm Walker (blue)
+6 Void Wraith (red)
+6 Void Wraith (yellow)
+6 Void Wraith (blue)
+6 Abyssal Bite (blue)
+6 Abyssal Force (blue)
+6 Abyssal Rush (blue)
+6 Darkest Hour (red)
+6 Darkest Hour (yellow)
+6 Darkest Hour (blue)
+6 Pull from Beyond (red)
+6 Pull from Beyond (yellow)
+6 Pull from Beyond (blue)
+6 Step through Realms (red)
+6 Step through Realms (yellow)
+6 Step through Realms (blue)
+6 Dam the Shadowake (red)
+6 Dam the Shadowake (yellow)
+6 Dam the Shadowake (blue)
+[Generic]
+5 Seek Horizon (red)
+5 Seek Horizon (yellow)
+5 Seek Horizon (blue)
+5 Whispers Within (red)
+5 Whispers Within (yellow)
+5 Whispers Within (blue)
+[Equipment]
+10 Grille of Repentance
+10 Robe of Repentance
+10 Path of Repentance
+10 Dark Arcanite Helm
+10 Dark Arcanite Plating
+10 Dark Arcanite Gloves
+10 Dark Arcanite Boots
+[Rare]
+2 Consuming Appetite (yellow)
+2 Consuming Lash (yellow)
+2 Consuming Strength (yellow)
+2 Hellbound Assault (red)
+2 Hellbound Assault (yellow)
+2 Hellbound Assault (blue)
+2 Rumbling Hunger (red)
+2 Rumbling Hunger (yellow)
+2 Rumbling Hunger (blue)
+2 Peak Power (red)
+2 Peak Power (yellow)
+2 Peak Power (blue)
+2 Rocktop Bellow (red)
+2 Rocktop Bellow (yellow)
+2 Rocktop Bellow (blue)
+2 Commit to Corruption (red)
+2 Commit to Corruption (yellow)
+2 Commit to Corruption (blue)
+2 Restless Looter (red)
+2 Restless Magister (red)
+2 Restless Quartermaster (red)
+2 Mark of Neverest (blue)
+2 Mark of Pathstone (blue)
+2 Mark of Ushering (blue)
+2 Skeletal Puppetry (red)
+2 Skeletal Puppetry (yellow)
+2 Skeletal Puppetry (blue)
+2 Corpse Cover (red)
+2 Corpse Cover (yellow)
+2 Corpse Cover (blue)
+2 Bloodsong Gloomblade (red)
+2 Cullingsong Gloomblade (red)
+2 Plundersong Gloomblade (red)
+2 Vexing Gloomblade (red)
+2 Vexing Gloomblade (yellow)
+2 Vexing Gloomblade (blue)
+2 Embrace Sin (yellow)
+2 Forbidden Harvest (yellow)
+2 Promise of Power (yellow)
+2 Runic Disposition (red)
+2 Runic Disposition (yellow)
+2 Runic Disposition (blue)
+2 Runic Reaving (red)
+2 Runic Reaving (yellow)
+2 Runic Reaving (blue)
+2 Countdown to Extinction (red)
+2 Countdown to Extinction (yellow)
+2 Countdown to Extinction (blue)
+2 Harbinger of Destruction (red)
+2 Rally the Shadow Horde (red)
+2 Rally the Shadow Horde (yellow)
+2 Rally the Shadow Horde (blue)
+2 Shadowrealm Harrower (blue)
+2 Shadowrealm Harvester (red)
+2 Shadowrealm Reaper (yellow)
+2 Tribute to Greater Power (red)
+2 Unbound by Shadow (red)
+2 Dimenxxional Ferryman (blue)
+2 Planar Chaos (red)
+2 Rites of Nightfall (blue)
+2 Murmur of i'Arathael
+2 Rumbling of i'Arathael
+2 Tremor of i'Arathael
+2 Battle Prep (red)
+2 Battle Prep (yellow)
+2 Battle Prep (blue)
+[Majestic]
+2 Blood Harvest
+2 Devouring Doomwake (red)
+2 Ingest the Unknown (yellow)
+2 Apex Buster (yellow)
+2 Battle Clearing Bellow (blue)
+2 Forsaken Strike (yellow)
+2 Bridge of Damnation (blue)
+2 Restless Templar (red)
+2 Tome of Necrosis (red)
+2 Bone Barrier (blue)
+2 Arknight Descendancy (blue)
+2 Sinspeaker Gloomblade (red)
+2 Become the Shadow Lord (blue)
+2 Sonata Dystopia (blue)
+2 Runechant of Greed (yellow)
+2 Corrupt and Conquer (red)
+2 Fallen Herald (yellow)
+2 Open the Gate to i'Arathael (red)
+2 Violent Gusto
+2 Exorcism
+[Rfcommon]
+1 Beckoning Hunger (red)
+1 Beckoning Hunger (yellow)
+1 Beckoning Hunger (blue)
+1 Cleave the Heavens (red)
+1 Cleave the Heavens (yellow)
+1 Cleave the Heavens (blue)
+1 Feasting Shadowbeast (red)
+1 Feasting Shadowbeast (yellow)
+1 Feasting Shadowbeast (blue)
+1 Feeding Frenzy (red)
+1 Feeding Frenzy (yellow)
+1 Feeding Frenzy (blue)
+1 Gorging Shadowbeast (red)
+1 Gorging Shadowbeast (yellow)
+1 Gorging Shadowbeast (blue)
+1 Satiate Bloodthirst (red)
+1 Satiate Bloodthirst (yellow)
+1 Satiate Bloodthirst (blue)
+1 Blasmophet's Boon (blue)
+1 Consuming Command (blue)
+1 Goremass Summoning (blue)
+1 Headstrong Stampede (red)
+1 Headstrong Stampede (yellow)
+1 Headstrong Stampede (blue)
+1 Rise to the Challenge (red)
+1 Rise to the Challenge (yellow)
+1 Rise to the Challenge (blue)
+1 Acrid Stench (red)
+1 Acrid Stench (yellow)
+1 Acrid Stench (blue)
+1 Bone Mass (red)
+1 Bone Mass (yellow)
+1 Bone Mass (blue)
+1 Malignant Migration (red)
+1 Malignant Migration (yellow)
+1 Malignant Migration (blue)
+1 Ominous Toll (red)
+1 Ominous Toll (yellow)
+1 Ominous Toll (blue)
+1 Shadowrealm Solace (blue)
+1 Shadowrealm Strength (red)
+1 Shadowrealm Swiftness (yellow)
+1 Restless Cleric (red)
+1 Restless Corporal (red)
+1 Restless Outlaw (red)
+1 Restless Plowman (red)
+1 Restless Shieldmaiden (red)
+1 Restless Steed (red)
+1 Bonded Burial (red)
+1 Bonded Burial (yellow)
+1 Bonded Burial (blue)
+1 Mutual Sacrifice (red)
+1 Mutual Sacrifice (yellow)
+1 Mutual Sacrifice (blue)
+1 Bloodfrenzy Gloomblade (red)
+1 Bloodfrenzy Gloomblade (yellow)
+1 Bloodfrenzy Gloomblade (blue)
+1 Demonbound Gloomblade (red)
+1 Demonbound Gloomblade (yellow)
+1 Demonbound Gloomblade (blue)
+1 Embrace Ursur (red)
+1 Embrace Ursur (yellow)
+1 Embrace Ursur (blue)
+1 Murmuring Gloomblade (red)
+1 Murmuring Gloomblade (yellow)
+1 Murmuring Gloomblade (blue)
+1 Shadowake Gloomblade (red)
+1 Shadowake Gloomblade (yellow)
+1 Shadowake Gloomblade (blue)
+1 Enshrine Sin (red)
+1 Enshrine Sin (yellow)
+1 Enshrine Sin (blue)
+1 Otherworldly Sins (red)
+1 Otherworldly Sins (yellow)
+1 Otherworldly Sins (blue)
+1 Runechant of Envy (yellow)
+1 Runechant of Gluttony (yellow)
+1 Runechant of Lust (yellow)
+1 Runechant of Pride (yellow)
+1 Runechant of Sloth (yellow)
+1 Runechant of Wrath (yellow)
+1 Breach Flesh (red)
+1 Breach Flesh (yellow)
+1 Breach Flesh (blue)
+1 Corporeal Chasm (red)
+1 Corporeal Chasm (yellow)
+1 Corporeal Chasm (blue)
+1 Permanent Interment (red)
+1 Permanent Interment (yellow)
+1 Permanent Interment (blue)
+1 Shadowrealm Bloodhound (red)
+1 Shadowrealm Bloodhound (yellow)
+1 Shadowrealm Bloodhound (blue)
+1 Shadowrealm Ripper (red)
+1 Shadowrealm Ripper (yellow)
+1 Shadowrealm Ripper (blue)
+1 Shadowrealm Walker (red)
+1 Shadowrealm Walker (yellow)
+1 Shadowrealm Walker (blue)
+1 Abyssal Bite (blue)
+1 Abyssal Force (blue)
+1 Abyssal Rush (blue)
+1 Darkest Hour (red)
+1 Darkest Hour (yellow)
+1 Darkest Hour (blue)
+1 Pull from Beyond (red)
+1 Pull from Beyond (yellow)
+1 Pull from Beyond (blue)
+1 Step through Realms (red)
+1 Step through Realms (yellow)
+1 Step through Realms (blue)
+1 Dam the Shadowake (red)
+1 Dam the Shadowake (yellow)
+1 Dam the Shadowake (blue)
+1 Whispers Within (red)
+1 Whispers Within (yellow)
+1 Whispers Within (blue)
+[RFRare]
+1 Consuming Appetite (yellow)
+1 Consuming Lash (yellow)
+1 Consuming Strength (yellow)
+1 Hellbound Assault (red)
+1 Hellbound Assault (yellow)
+1 Hellbound Assault (blue)
+1 Rumbling Hunger (red)
+1 Rumbling Hunger (yellow)
+1 Rumbling Hunger (blue)
+1 Peak Power (red)
+1 Peak Power (yellow)
+1 Peak Power (blue)
+1 Rocktop Bellow (red)
+1 Rocktop Bellow (yellow)
+1 Rocktop Bellow (blue)
+1 Commit to Corruption (red)
+1 Commit to Corruption (yellow)
+1 Commit to Corruption (blue)
+1 Restless Looter (red)
+1 Restless Magister (red)
+1 Restless Quartermaster (red)
+1 Mark of Neverest (blue)
+1 Mark of Pathstone (blue)
+1 Mark of Ushering (blue)
+1 Skeletal Puppetry (red)
+1 Skeletal Puppetry (yellow)
+1 Skeletal Puppetry (blue)
+1 Corpse Cover (red)
+1 Corpse Cover (yellow)
+1 Corpse Cover (blue)
+1 Bloodsong Gloomblade (red)
+1 Cullingsong Gloomblade (red)
+1 Plundersong Gloomblade (red)
+1 Vexing Gloomblade (red)
+1 Vexing Gloomblade (yellow)
+1 Vexing Gloomblade (blue)
+1 Embrace Sin (yellow)
+1 Forbidden Harvest (yellow)
+1 Promise of Power (yellow)
+1 Runic Disposition (red)
+1 Runic Disposition (yellow)
+1 Runic Disposition (blue)
+1 Runic Reaving (red)
+1 Runic Reaving (yellow)
+1 Runic Reaving (blue)
+1 Countdown to Extinction (red)
+1 Countdown to Extinction (yellow)
+1 Countdown to Extinction (blue)
+1 Harbinger of Destruction (red)
+1 Rally the Shadow Horde (red)
+1 Rally the Shadow Horde (yellow)
+1 Rally the Shadow Horde (blue)
+1 Shadowrealm Harrower (blue)
+1 Shadowrealm Harvester (red)
+1 Shadowrealm Reaper (yellow)
+1 Tribute to Greater Power (red)
+1 Unbound by Shadow (red)
+1 Dimenxxional Ferryman (blue)
+1 Planar Chaos (red)
+1 Rites of Nightfall (blue)
+1 Murmur of i'Arathael
+1 Rumbling of i'Arathael
+1 Battle Prep (red)
+1 Battle Prep (yellow)
+1 Battle Prep (blue)
+[RFMajestic]
+1 Blood Harvest
+1 Devouring Doomwake (red)
+1 Ingest the Unknown (yellow)
+1 Apex Buster (yellow)
+1 Battle Clearing Bellow (blue)
+1 Forsaken Strike (yellow)
+1 Bridge of Damnation (blue)
+1 Restless Templar (red)
+1 Tome of Necrosis (red)
+1 Bone Barrier (blue)
+1 Arknight Descendancy (blue)
+1 Sinspeaker Gloomblade (red)
+1 Become the Shadow Lord (blue)
+1 Sonata Dystopia (blue)
+1 Runechant of Greed (yellow)
+1 Corrupt and Conquer (red)
+1 Fallen Herald (yellow)
+1 Open the Gate to i'Arathael (red)
+1 Violent Gusto
+1 Exorcism
