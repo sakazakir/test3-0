@@ -1,27 +1,356 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Viserai 3-0 Deck Analyzer</title>
-<style>
-:root{color-scheme:dark;--bg:#111827;--panel:#1f2937;--line:#4b5563;--muted:#9ca3af;--red:#ef4444;--yellow:#eab308;--blue:#3b82f6;--error:#fca5a5;--ok:#86efac}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f9fafb;font-family:system-ui,-apple-system,"Yu Gothic",Meiryo,sans-serif}.wrap{max-width:1400px;margin:auto;padding:28px 4% 60px}h1{margin:0 0 8px}h2{margin:0 0 16px}.muted,.hint{color:var(--muted)}.panel,.summary{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;margin:18px 0}textarea{width:100%;min-height:360px;background:#0b1220;color:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;font:14px/1.55 monospace}textarea:focus{outline:2px solid #6366f1}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}button{border:0;border-radius:7px;padding:10px 15px;background:#4f46e5;color:white;font-weight:700;cursor:pointer}button.secondary{background:#4b5563}label{color:var(--muted);font-size:14px}.status{min-height:24px;margin-top:12px}.error{color:var(--error)}.ok{color:var(--ok)}.error-box{margin-top:12px;padding:12px;border:1px solid #991b1b;border-radius:8px;background:#450a0a;color:#fecaca}.error-box h3{margin:0 0 8px;font-size:15px}.error-box ul{margin:0;padding-left:22px}.info-box{margin:14px 0;padding:12px 14px;border-left:4px solid #818cf8;background:#172554;color:#dbeafe}.info-box h3{margin:0 0 6px;font-size:15px}.info-box p{margin:4px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.summary{margin:0;border-top:4px solid #9ca3af}.summary.red{border-top-color:var(--red)}.summary.yellow{border-top-color:var(--yellow)}.summary.blue{border-top-color:var(--blue)}.summary .label{color:var(--muted);font-size:13px}.summary .value{font-size:30px;font-weight:800}table{border-collapse:collapse;width:100%;min-width:650px}th,td{padding:10px 12px;border-bottom:1px solid #374151;text-align:left}th{background:#273244;color:#d1d5db;font-size:13px}.scroll{overflow:auto}.badge{display:inline-block;min-width:42px;text-align:center;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:700}.red.badge{background:var(--red)}.yellow.badge{background:var(--yellow);color:#111}.blue.badge{background:var(--blue)}.hidden{display:none}code{color:#c4b5fd}.small{font-size:13px;color:var(--muted)}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Viserai 3-0 Deck Analyzer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111827;
+      --panel: #1f2937;
+      --line: #4b5563;
+      --muted: #9ca3af;
+      --red: #ef4444;
+      --yellow: #eab308;
+      --blue: #3b82f6;
+      --error: #fca5a5;
+      --ok: #86efac;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #f9fafb;
+      font-family: system-ui, -apple-system, "Yu Gothic", Meiryo, sans-serif;
+    }
+
+    .wrap {
+      max-width: 1400px;
+      margin: auto;
+      padding: 28px 4% 60px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+    }
+
+    .muted,
+    .hint,
+    .small {
+      color: var(--muted);
+    }
+
+    .panel,
+    .summary {
+      margin: 18px 0;
+      padding: 18px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 360px;
+      padding: 12px;
+      color: #fff;
+      background: #0b1220;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font: 14px/1.55 monospace;
+    }
+
+    textarea:focus {
+      outline: 2px solid #6366f1;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-top: 14px;
+    }
+
+    button {
+      padding: 10px 15px;
+      color: white;
+      background: #4f46e5;
+      border: 0;
+      border-radius: 7px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button.secondary {
+      background: #4b5563;
+    }
+
+    .status {
+      min-height: 24px;
+      margin-top: 12px;
+    }
+
+    .error {
+      color: var(--error);
+    }
+
+    .ok {
+      color: var(--ok);
+    }
+
+    .error-box {
+      margin-top: 12px;
+      padding: 12px;
+      color: #fecaca;
+      background: #450a0a;
+      border: 1px solid #991b1b;
+      border-radius: 8px;
+    }
+
+    .error-box h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+    }
+
+    .error-box ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    .info-box {
+      margin: 14px 0;
+      padding: 12px 14px;
+      color: #dbeafe;
+      background: #172554;
+      border-left: 4px solid #818cf8;
+    }
+
+    .info-box h3 {
+      margin: 0 0 6px;
+      font-size: 15px;
+    }
+
+    .info-box p {
+      margin: 4px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .summary {
+      margin: 0;
+      border-top: 4px solid #9ca3af;
+    }
+
+    .summary.red {
+      border-top-color: var(--red);
+    }
+
+    .summary.yellow {
+      border-top-color: var(--yellow);
+    }
+
+    .summary.blue {
+      border-top-color: var(--blue);
+    }
+
+    .summary .label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .summary .value {
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    .scroll {
+      overflow: auto;
+    }
+
+    table {
+      width: 100%;
+      min-width: 650px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #374151;
+    }
+
+    th {
+      color: #d1d5db;
+      background: #273244;
+      font-size: 13px;
+    }
+
+    .badge {
+      display: inline-block;
+      min-width: 42px;
+      padding: 2px 8px;
+      color: white;
+      text-align: center;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .red.badge {
+      background: var(--red);
+    }
+
+    .yellow.badge {
+      color: #111;
+      background: var(--yellow);
+    }
+
+    .blue.badge {
+      background: var(--blue);
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    code {
+      color: #c4b5fd;
+    }
+
+    .empty {
+      text-align: center;
+      color: var(--muted);
+    }
+  </style>
 </head>
-<body><main class="wrap">
-<h1>Viserai 3-0 Deck Analyzer</h1>
-<p class="muted">FaBrary形式の複数デッキリストから、赤・黄・青カードの平均枚数とカード別統計を計算します。</p>
-<section class="panel"><h2>デッキリスト入力</h2><textarea id="input" spellcheck="false"></textarea>
-<div class="controls"><button id="analyze">分析する</button><button class="secondary" id="sample">サンプルを読み込む</button><button class="secondary" id="clear">クリア</button><label><input type="checkbox" id="arena"> Arena cardsも含める</label><label><input type="checkbox" id="combine" checked> 同名カードを色を区別せず合算</label></div>
-<div id="status" class="status"></div><div id="errors" class="error-box hidden"></div>
-<div class="info-box"><h3>オプションの意味</h3><p><strong>Arena cardsも含める</strong>：Arena cards欄にある装備・武器なども、集計対象に含めます。オフの場合はDeck cards欄だけを集計します。</p><p><strong>同名カードを色を区別せず合算</strong>：赤・黄・青に同じカード名がある場合に、同じカードとして合計します。オフにすると、例えば <code>Bloodfrenzy Gloomblade (red)</code> と <code>(yellow)</code> を別々に集計します。</p></div>
-<p class="hint">複数デッキは各デッキを <code>Name:</code> から始めてください。カード行は <code>2x Card Name (red)</code> の形式です。</p></section>
-<section id="results" class="hidden"><div id="summary" class="grid"></div>
-<section class="panel"><h2>色別集計</h2><div class="scroll"><table><thead><tr><th>色</th><th>デッキ数</th><th>合計枚数</th><th>平均枚数</th><th>カード種類数</th></tr></thead><tbody id="colors"></tbody></table></div></section>
-<section class="panel"><div class="controls" style="justify-content:space-between;margin:0"><h2>カード別集計</h2><button class="secondary" id="csv">CSVをダウンロード</button></div><div class="scroll"><table><thead><tr><th>順位</th><th>カード名</th><th>色</th><th>総枚数</th><th>平均枚数</th><th>採用デッキ数</th><th>採用率</th></tr></thead><tbody id="cards"></tbody></table></div></section>
-<section class="panel"><h2>デッキ別集計</h2><div class="scroll"><table><thead><tr><th>デッキ</th><th>赤</th><th>黄</th><th>青</th><th>合計</th></tr></thead><tbody id="decks"></tbody></table></div></section></section></main>
-<script>
-const sample=`Name: Draft 1
+<body>
+  <main class="wrap">
+    <h1>Viserai 3-0 Deck Analyzer</h1>
+    <p class="muted">FaBrary形式の複数デッキリストから、Deck cards の色別集計と Arena cards の専用集計を行います。</p>
+
+    <section class="panel">
+      <h2>デッキリスト入力</h2>
+      <textarea id="input" spellcheck="false"></textarea>
+
+      <div class="controls">
+        <button id="analyze">分析する</button>
+        <button class="secondary" id="sample">サンプルを読み込む</button>
+        <button class="secondary" id="clear">クリア</button>
+      </div>
+
+      <div id="status" class="status"></div>
+      <div id="errors" class="error-box hidden"></div>
+
+      <div class="info-box">
+        <h3>集計ルール</h3>
+        <p><strong>Deck cards</strong> は <code>2x Card Name (red)</code> のように末尾の色指定が必須です。</p>
+        <p><strong>Arena cards</strong> は常に分析対象に含め、赤・黄・青の色別集計には入れず、専用の「Arena cards集計」で表示します。</p>
+      </div>
+
+      <p class="hint">複数デッキは各デッキを <code>Name:</code> から始めてください。</p>
+    </section>
+
+    <section id="results" class="hidden">
+      <div id="summary" class="grid"></div>
+
+      <section class="panel">
+        <h2>Deck cards 色別集計</h2>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>色</th>
+                <th>デッキ数</th>
+                <th>合計枚数</th>
+                <th>平均枚数</th>
+                <th>カード種類数</th>
+              </tr>
+            </thead>
+            <tbody id="colors"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="controls" style="justify-content:space-between;margin:0">
+          <h2 style="margin:0">Deck cards カード別集計</h2>
+          <button class="secondary" id="csv">CSVをダウンロード</button>
+        </div>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>順位</th>
+                <th>カード名</th>
+                <th>色</th>
+                <th>総枚数</th>
+                <th>平均枚数</th>
+                <th>採用デッキ数</th>
+                <th>採用率</th>
+              </tr>
+            </thead>
+            <tbody id="deckCards"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Arena cards集計</h2>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>順位</th>
+                <th>カード名</th>
+                <th>総枚数</th>
+                <th>平均枚数</th>
+                <th>採用デッキ数</th>
+                <th>採用率</th>
+              </tr>
+            </thead>
+            <tbody id="arenaCards"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>デッキ別集計</h2>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>デッキ</th>
+                <th>赤</th>
+                <th>黄</th>
+                <th>青</th>
+                <th>Deck cards合計</th>
+                <th>Arena cards合計</th>
+              </tr>
+            </thead>
+            <tbody id="decks"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const sample = `Name: Draft 1
 Hero: Viserai, Between Worlds
 Format: Draft
 
@@ -58,10 +387,468 @@ Deck cards
 1x Pull from Beyond (blue)
 1x Seek Horizon (blue)
 1x Whispers Within (blue)`;
-const $=id=>document.getElementById(id),input=$("input"),labels={red:"赤",yellow:"黄",blue:"青"};let latest=[];
-function esc(v){return String(v).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}
-function parse(text){text=text.replace(/\r\n?/g,"\n").trim();const errors=[];if(!text)return{decks:[],errors:["入力が空です。デッキリストを貼り付けてください。"]};const m=[...text.matchAll(/^Name:\s*(.*)$/gim)],bs=m.length?m.map((x,i)=>text.slice(x.index,i+1<m.length?m[i+1].index:text.length)):[text];const decks=bs.map((b,i)=>{let section="deck",cards=[],name=(b.match(/^Name:\s*(.*)$/im)||[])[1]||`Deck ${i+1}`;for(const [idx,raw] of b.split("\n").entries()){const line=idx+1,l=raw.trim();if(!l||/^Name:|^Hero:|^Format:|^FaBraryで/i.test(l))continue;if(/^Arena cards/i.test(l)){section="arena";continue}if(/^Deck cards/i.test(l)){section="deck";continue}if(/^\d+\s*x?\s+.+\s+\((red|yellow|blue)\)\s*$/i.test(l)){const x=l.match(/^(\d+)\s*x?\s+(.+?)\s+\((red|yellow|blue)\)\s*$/i);const qty=Number(x[1]);if(qty<=0)errors.push(`${name}: ${line}行目「${l}」— 枚数は1以上にしてください。`);else cards.push({name:x[2].trim(),qty,color:x[3].toLowerCase(),section});continue}if(/^(\d+)\s*x?\s+/.test(l))errors.push(`${name}: ${line}行目「${l}」— 色指定がありません。末尾に (red)、(yellow)、または (blue) を付けてください。`)}if(!cards.length)errors.push(`${name.trim()||`Deck ${i+1}`}: 集計可能なカードがありません。`);return{name:name.trim()||`Deck ${i+1}`,cards}}).filter(x=>x.cards.length);return{decks,errors}}
-function showErrors(errors){const box=$("errors");if(!errors.length){box.classList.add("hidden");box.innerHTML="";return}box.classList.remove("hidden");box.innerHTML=`<h3>入力の確認事項（${errors.length}件）</h3><ul>${errors.map(e=>`<li>${esc(e)}</li>`).join("")}</ul><p class="small">上記の行は除外して、解析できるカードだけで集計しています。集計を中止したい場合は入力を修正してから再度分析してください。</p>`}
-function analyze(){try{const parsed=parse(input.value),ds=parsed.decks;showErrors(parsed.errors);if(!ds.length){$("results").classList.add("hidden");$("status").className="status error";$("status").textContent="処理に失敗しました。解析可能なデッキがありません。下のエラー内容を確認してください。";return}const inc=$("arena").checked,comb=$("combine").checked,totals={red:0,yellow:0,blue:0},map=new Map(),rows=[];for(const d of ds){const dt={red:0,yellow:0,blue:0};for(const c of d.cards){if(!inc&&c.section==='arena')continue;const key=comb?c.name:`${c.name}|||${c.color}`;dt[c.color]+=c.qty;totals[c.color]+=c.qty;if(!map.has(key))map.set(key,{name:c.name,color:comb?'all':c.color,total:0,set:new Set()});const x=map.get(key);x.total+=c.qty;x.set.add(d.name)}rows.push({...dt,name:d.name,total:dt.red+dt.yellow+dt.blue)}const cards=[...map.values()].map(x=>({...x,count:x.set.size,avg:x.total/ds.length,rate:x.set.size/ds.length*100})).sort((a,b)=>b.avg-a.avg||a.name.localeCompare(b.name,"ja"));latest=cards;const cr=["red","yellow","blue"].map(c=>({c,total:totals[c],avg:totals[c]/ds.length,types:cards.filter(x=>comb?ds.some(d=>d.cards.some(y=>y.name===x.name&&y.color===c&&(inc||y.section!=="arena"))):x.color===c).length}));const totalAvg=Object.values(totals).reduce((a,b)=>a+b,0)/ds.length;$("summary").innerHTML=`<div class="summary"><div class="label">分析デッキ数</div><div class="value">${ds.length}</div></div>${cr.map(x=>`<div class="summary ${x.c}"><div class="label">${labels[x.c]}の平均枚数</div><div class="value">${x.avg.toFixed(2)}</div></div>`).join("")}<div class="summary"><div class="label">デッキ合計の平均枚数</div><div class="value">${totalAvg.toFixed(2)}</div></div>`;$("colors").innerHTML=cr.map(x=>`<tr><td><span class="badge ${x.c}">${labels[x.c]}</span></td><td>${ds.length}</td><td>${x.total}</td><td>${x.avg.toFixed(2)}</td><td>${x.types}</td></tr>`).join("");$("cards").innerHTML=cards.length?cards.map((x,i)=>`<tr><td>${i+1}</td><td>${esc(x.name)}</td><td>${comb?'合算':`<span class="badge ${x.color}">${labels[x.color]}</span>`}</td><td>${x.total}</td><td>${x.avg.toFixed(2)}</td><td>${x.count}</td><td>${x.rate.toFixed(1)}%</td></tr>`).join(""):`<tr><td colspan="7">対象カードがありません。Arena cardsを含める場合はチェックを入れてください。</td></tr>`;$("decks").innerHTML=rows.map(x=>`<tr><td>${esc(x.name)}</td><td>${x.red}</td><td>${x.yellow}</td><td>${x.blue}</td><td>${x.total}</td></tr>`).join("");$("results").classList.remove("hidden");$("status").className=parsed.errors.length?"status":"status ok";$("status").textContent=parsed.errors.length?`${ds.length}個のデッキを解析しました。ただし、${parsed.errors.length}件の確認事項があります。`:`${ds.length}個のデッキを解析しました。`}catch(error){$("results").classList.add("hidden");$("status").className="status error";$("status").textContent="処理中に予期しないエラーが発生しました。";showErrors([`${error.name||"Error"}: ${error.message||String(error)}`]);console.error(error)}}
-$("analyze").onclick=analyze;$("sample").onclick=()=>{input.value=sample;analyze()};$("clear").onclick=()=>{input.value="";$("results").classList.add("hidden");$("status").textContent="";showErrors([])};$("arena").onchange=analyze;$("combine").onchange=analyze;$("csv").onclick=()=>{if(!latest.length)return;const rows=[["順位","カード名","色","総枚数","平均枚数","採用デッキ数","採用率"],...latest.map((x,i)=>[i+1,x.name,$("combine").checked?"合算":x.color,x.total,x.avg.toFixed(2),x.count,x.rate.toFixed(1)+"%"])] ;const csv="\uFEFF"+rows.map(r=>r.map(v=>`"${String(v).replaceAll('"','""')}"`).join(",")).join("\n"),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));a.download="viserai-card-analysis.csv";a.click()};input.value=sample;analyze();
-</script></body></html>
+
+    const COLORS = ["red", "yellow", "blue"];
+    const COLOR_LABELS = { red: "赤", yellow: "黄", blue: "青" };
+    const input = document.getElementById("input");
+    const latestCsvRows = [];
+
+    function get(id) {
+      return document.getElementById(id);
+    }
+
+    function esc(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function normalize(text) {
+      return text.replace(/\r\n?/g, "\n").trim();
+    }
+
+    function formatNumber(value) {
+      return Number(value).toFixed(2);
+    }
+
+    function makeCardEntry(name, color) {
+      return {
+        name,
+        color,
+        total: 0,
+        deckQuantities: new Map()
+      };
+    }
+
+    function parseDecks(text) {
+      const normalized = normalize(text);
+      const errors = [];
+
+      if (!normalized) {
+        return {
+          decks: [],
+          errors: ["入力が空です。デッキリストを貼り付けてください。"]
+        };
+      }
+
+      const nameMatches = [...normalized.matchAll(/^Name:\s*(.*)$/gim)];
+      const blocks = nameMatches.length
+        ? nameMatches.map((match, index) => {
+            const start = match.index;
+            const end = index + 1 < nameMatches.length ? nameMatches[index + 1].index : normalized.length;
+            return normalized.slice(start, end);
+          })
+        : [normalized];
+
+      const decks = blocks.map((block, index) => parseSingleDeck(block, index + 1, errors));
+      const analyzableDecks = decks.filter((deck) => deck.deckCards.length > 0 || deck.arenaCards.length > 0);
+
+      if (analyzableDecks.length === 0) {
+        errors.push("集計可能なデッキがありません。Deck cards または Arena cards の形式を確認してください。");
+      }
+
+      return {
+        decks: analyzableDecks,
+        errors
+      };
+    }
+
+    function parseSingleDeck(block, fallbackIndex, errors) {
+      const lines = block.split("\n");
+      const nameMatch = block.match(/^Name:\s*(.*)$/im);
+      const name = (nameMatch && nameMatch[1].trim()) || `Deck ${fallbackIndex}`;
+      const deckCards = [];
+      const arenaCards = [];
+      let section = "";
+
+      for (let index = 0; index < lines.length; index += 1) {
+        const rawLine = lines[index];
+        const lineNumber = index + 1;
+        const line = rawLine.trim();
+
+        if (!line) {
+          continue;
+        }
+
+        if (/^Name:|^Hero:|^Format:|^FaBraryで/i.test(line)) {
+          continue;
+        }
+
+        if (/^Arena cards$/i.test(line)) {
+          section = "arena";
+          continue;
+        }
+
+        if (/^Deck cards$/i.test(line)) {
+          section = "deck";
+          continue;
+        }
+
+        const quantityMatch = line.match(/^(-?\d+)\s*x?\s+(.+)$/i);
+
+        if (!quantityMatch) {
+          continue;
+        }
+
+        const quantity = Number(quantityMatch[1]);
+        const rest = quantityMatch[2].trim();
+
+        if (!Number.isFinite(quantity) || quantity <= 0) {
+          errors.push(`${name}: ${lineNumber}行目「${line}」— 数量は1以上にしてください。`);
+          continue;
+        }
+
+        if (section === "arena") {
+          arenaCards.push({ name: rest, quantity });
+          continue;
+        }
+
+        const deckMatch = rest.match(/^(.+?)\s+\(([^)]+)\)\s*$/);
+
+        if (!deckMatch) {
+          errors.push(`${name}: ${lineNumber}行目「${line}」— Deck cards の色指定が不足しています。末尾に (red)、(yellow)、または (blue) を付けてください。`);
+          continue;
+        }
+
+        const cardName = deckMatch[1].trim();
+        const color = deckMatch[2].trim().toLowerCase();
+
+        if (!COLORS.includes(color)) {
+          errors.push(`${name}: ${lineNumber}行目「${line}」— Deck cards の色指定が不正です。使用できる色は red / yellow / blue です。`);
+          continue;
+        }
+
+        deckCards.push({ name: cardName, color, quantity });
+      }
+
+      if (deckCards.length === 0 && arenaCards.length === 0) {
+        errors.push(`${name}: 集計可能なカードがありません。`);
+      }
+
+      return {
+        name,
+        deckCards,
+        arenaCards
+      };
+    }
+
+    function buildCardRows(cardMap, deckCount, includeColor) {
+      return [...cardMap.values()]
+        .map((entry) => ({
+          name: entry.name,
+          color: entry.color,
+          total: entry.total,
+          deckCount: entry.deckQuantities.size,
+          average: entry.total / deckCount,
+          adoptionRate: (entry.deckQuantities.size / deckCount) * 100
+        }))
+        .sort((a, b) => {
+          if (b.average !== a.average) {
+            return b.average - a.average;
+          }
+
+          if (includeColor && a.color !== b.color) {
+            return COLORS.indexOf(a.color) - COLORS.indexOf(b.color);
+          }
+
+          return a.name.localeCompare(b.name, "ja");
+        });
+    }
+
+    function aggregateDecks(decks) {
+      const deckCardMap = new Map();
+      const arenaCardMap = new Map();
+      const colorTotals = { red: 0, yellow: 0, blue: 0 };
+      const deckRows = [];
+
+      for (const deck of decks) {
+        const deckColorTotals = { red: 0, yellow: 0, blue: 0 };
+        let arenaTotal = 0;
+
+        for (const card of deck.deckCards) {
+          const key = `${card.name}|||${card.color}`;
+          if (!deckCardMap.has(key)) {
+            deckCardMap.set(key, makeCardEntry(card.name, card.color));
+          }
+
+          const entry = deckCardMap.get(key);
+          entry.total += card.quantity;
+          entry.deckQuantities.set(deck.name, (entry.deckQuantities.get(deck.name) || 0) + card.quantity);
+          deckColorTotals[card.color] += card.quantity;
+          colorTotals[card.color] += card.quantity;
+        }
+
+        for (const card of deck.arenaCards) {
+          if (!arenaCardMap.has(card.name)) {
+            arenaCardMap.set(card.name, makeCardEntry(card.name, "arena"));
+          }
+
+          const entry = arenaCardMap.get(card.name);
+          entry.total += card.quantity;
+          entry.deckQuantities.set(deck.name, (entry.deckQuantities.get(deck.name) || 0) + card.quantity);
+          arenaTotal += card.quantity;
+        }
+
+        deckRows.push({
+          name: deck.name,
+          red: deckColorTotals.red,
+          yellow: deckColorTotals.yellow,
+          blue: deckColorTotals.blue,
+          deckTotal: deckColorTotals.red + deckColorTotals.yellow + deckColorTotals.blue,
+          arenaTotal
+        });
+      }
+
+      const deckCardRows = buildCardRows(deckCardMap, decks.length, true);
+      const arenaCardRows = buildCardRows(arenaCardMap, decks.length, false);
+      const colorRows = COLORS.map((color) => ({
+        color,
+        label: COLOR_LABELS[color],
+        total: colorTotals[color],
+        average: colorTotals[color] / decks.length,
+        cardTypeCount: deckCardRows.filter((row) => row.color === color).length
+      }));
+
+      return {
+        deckCount: decks.length,
+        colorTotals,
+        colorRows,
+        deckCardRows,
+        arenaCardRows,
+        deckRows
+      };
+    }
+
+    function showErrors(errors) {
+      const box = get("errors");
+
+      if (!errors.length) {
+        box.classList.add("hidden");
+        box.innerHTML = "";
+        return;
+      }
+
+      box.classList.remove("hidden");
+      box.innerHTML = `
+        <h3>入力の確認事項（${errors.length}件）</h3>
+        <ul>${errors.map((error) => `<li>${esc(error)}</li>`).join("")}</ul>
+        <p class="small">解析可能なデータが残っていれば、その内容だけで集計を継続しています。</p>
+      `;
+    }
+
+    function renderSummary(result) {
+      const deckCardAverage = (result.colorTotals.red + result.colorTotals.yellow + result.colorTotals.blue) / result.deckCount;
+      const arenaAverage = result.arenaCardRows.reduce((sum, row) => sum + row.average, 0);
+
+      get("summary").innerHTML = `
+        <div class="summary">
+          <div class="label">分析デッキ数</div>
+          <div class="value">${result.deckCount}</div>
+        </div>
+        <div class="summary red">
+          <div class="label">赤の平均枚数</div>
+          <div class="value">${formatNumber(result.colorRows[0].average)}</div>
+        </div>
+        <div class="summary yellow">
+          <div class="label">黄の平均枚数</div>
+          <div class="value">${formatNumber(result.colorRows[1].average)}</div>
+        </div>
+        <div class="summary blue">
+          <div class="label">青の平均枚数</div>
+          <div class="value">${formatNumber(result.colorRows[2].average)}</div>
+        </div>
+        <div class="summary">
+          <div class="label">Deck cards合計の平均枚数</div>
+          <div class="value">${formatNumber(deckCardAverage)}</div>
+        </div>
+        <div class="summary">
+          <div class="label">Arena cards合計の平均枚数</div>
+          <div class="value">${formatNumber(arenaAverage)}</div>
+        </div>
+      `;
+    }
+
+    function renderColorTable(result) {
+      get("colors").innerHTML = result.colorRows
+        .map((row) => `
+          <tr>
+            <td><span class="badge ${row.color}">${row.label}</span></td>
+            <td>${result.deckCount}</td>
+            <td>${row.total}</td>
+            <td>${formatNumber(row.average)}</td>
+            <td>${row.cardTypeCount}</td>
+          </tr>
+        `)
+        .join("");
+    }
+
+    function renderDeckCardTable(result) {
+      const body = get("deckCards");
+
+      if (!result.deckCardRows.length) {
+        body.innerHTML = '<tr><td colspan="7" class="empty">Deck cards の集計対象がありません。</td></tr>';
+        return;
+      }
+
+      body.innerHTML = result.deckCardRows
+        .map((row, index) => `
+          <tr>
+            <td>${index + 1}</td>
+            <td>${esc(row.name)}</td>
+            <td><span class="badge ${row.color}">${COLOR_LABELS[row.color]}</span></td>
+            <td>${row.total}</td>
+            <td>${formatNumber(row.average)}</td>
+            <td>${row.deckCount}</td>
+            <td>${row.adoptionRate.toFixed(1)}%</td>
+          </tr>
+        `)
+        .join("");
+    }
+
+    function renderArenaCardTable(result) {
+      const body = get("arenaCards");
+
+      if (!result.arenaCardRows.length) {
+        body.innerHTML = '<tr><td colspan="6" class="empty">Arena cards の集計対象がありません。</td></tr>';
+        return;
+      }
+
+      body.innerHTML = result.arenaCardRows
+        .map((row, index) => `
+          <tr>
+            <td>${index + 1}</td>
+            <td>${esc(row.name)}</td>
+            <td>${row.total}</td>
+            <td>${formatNumber(row.average)}</td>
+            <td>${row.deckCount}</td>
+            <td>${row.adoptionRate.toFixed(1)}%</td>
+          </tr>
+        `)
+        .join("");
+    }
+
+    function renderDeckTable(result) {
+      get("decks").innerHTML = result.deckRows
+        .map((row) => `
+          <tr>
+            <td>${esc(row.name)}</td>
+            <td>${row.red}</td>
+            <td>${row.yellow}</td>
+            <td>${row.blue}</td>
+            <td>${row.deckTotal}</td>
+            <td>${row.arenaTotal}</td>
+          </tr>
+        `)
+        .join("");
+    }
+
+    function updateLatestCsvRows(result) {
+      latestCsvRows.length = 0;
+
+      result.deckCardRows.forEach((row, index) => {
+        latestCsvRows.push([
+          "Deck",
+          index + 1,
+          row.name,
+          row.color,
+          row.total,
+          formatNumber(row.average),
+          row.deckCount,
+          `${row.adoptionRate.toFixed(1)}%`
+        ]);
+      });
+
+      result.arenaCardRows.forEach((row, index) => {
+        latestCsvRows.push([
+          "Arena",
+          index + 1,
+          row.name,
+          "",
+          row.total,
+          formatNumber(row.average),
+          row.deckCount,
+          `${row.adoptionRate.toFixed(1)}%`
+        ]);
+      });
+    }
+
+    function analyze() {
+      try {
+        const parsed = parseDecks(input.value);
+        showErrors(parsed.errors);
+
+        if (!parsed.decks.length) {
+          get("results").classList.add("hidden");
+          get("status").className = "status error";
+          get("status").textContent = "処理に失敗しました。集計可能なデッキがありません。";
+          latestCsvRows.length = 0;
+          return;
+        }
+
+        const result = aggregateDecks(parsed.decks);
+        renderSummary(result);
+        renderColorTable(result);
+        renderDeckCardTable(result);
+        renderArenaCardTable(result);
+        renderDeckTable(result);
+        updateLatestCsvRows(result);
+
+        get("results").classList.remove("hidden");
+        get("status").className = parsed.errors.length ? "status error" : "status ok";
+        get("status").textContent = parsed.errors.length
+          ? `${result.deckCount}個のデッキを解析しました。${parsed.errors.length}件の確認事項があります。`
+          : `${result.deckCount}個のデッキを解析しました。`;
+      } catch (error) {
+        get("results").classList.add("hidden");
+        get("status").className = "status error";
+        get("status").textContent = "処理中に予期しないJavaScriptエラーが発生しました。";
+        latestCsvRows.length = 0;
+        showErrors([`${error && error.name ? error.name : "Error"}: ${error && error.message ? error.message : String(error)}`]);
+        console.error(error);
+      }
+    }
+
+    function downloadCsv() {
+      if (!latestCsvRows.length) {
+        return;
+      }
+
+      const rows = [
+        ["カテゴリ", "順位", "カード名", "色", "総枚数", "平均枚数", "採用デッキ数", "採用率"],
+        ...latestCsvRows
+      ];
+      const csv = "\uFEFF" + rows
+        .map((row) => row.map((value) => `"${String(value).replaceAll('"', '""')}"`).join(","))
+        .join("\n");
+      const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+      const link = document.createElement("a");
+
+      link.href = url;
+      link.download = "viserai-card-analysis.csv";
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    get("analyze").addEventListener("click", analyze);
+    get("sample").addEventListener("click", () => {
+      input.value = sample;
+      analyze();
+    });
+    get("clear").addEventListener("click", () => {
+      input.value = "";
+      get("results").classList.add("hidden");
+      get("status").className = "status";
+      get("status").textContent = "";
+      latestCsvRows.length = 0;
+      showErrors([]);
+    });
+    get("csv").addEventListener("click", downloadCsv);
+
+    input.value = sample;
+    analyze();
+  </script>
+</body>
+</html>
