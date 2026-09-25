@@ -46,7 +46,7 @@ label{color:var(--muted);font-size:14px}
 .summary .value{font-size:30px;font-weight:800}
 table{border-collapse:collapse;width:100%;min-width:650px}
 th,td{padding:10px 12px;border-bottom:1px solid #334155;text-align:left}
-th{background:#24354f;color:#d1d5db;font-size:13px;position:sticky;top:0;z-index:1}
+th{background:#24354f;color:#d1d5db;font-size:13px}
 .scroll{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid #2a3a59;border-radius:12px}
 .badge{display:inline-block;min-width:42px;text-align:center;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:700}
 .red.badge{background:var(--red)}
@@ -69,7 +69,7 @@ code{color:#c4b5fd}
 @media (max-width:640px){
   .controls{gap:10px}
   .panel,.summary{backdrop-filter:none}
-  .controls button:not(.tab){width:100%;justify-content:center}
+  .controls button:not(.tab){display:flex;width:100%;justify-content:center}
   #heroTabs.controls button.tab{width:auto}
   input[type="search"]{min-width:0;width:100%}
   .grid{grid-template-columns:1fr}
