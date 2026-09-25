@@ -74,7 +74,7 @@ code{color:#c4b5fd}
 
 @media (max-width:640px){
   .controls{gap:10px}
-  #add,#analyze,#append,#sample,#clear,#export,#import{display:flex;width:100%;justify-content:center}
+  .primary-actions button{display:flex;width:100%;justify-content:center}
   input[type="search"]{min-width:0;width:100%}
   .grid{grid-template-columns:1fr}
   .summary .value{font-size:26px}
@@ -88,7 +88,7 @@ code{color:#c4b5fd}
 <h1>FaBrary Draft Deck Analyzer</h1>
 <p class="muted">FaBrary形式の複数デッキリストから、赤・黄・青カードの平均枚数とカード別・ヒーロー別統計を計算します。</p>
 <section class="panel"><h2>デッキリスト入力</h2><textarea id="input" spellcheck="false"></textarea>
-<div class="controls"><button id="add">デッキを登録</button><button id="analyze">登録済みデッキを分析</button><button class="secondary" id="append">コピーしたデッキを登録</button><button class="secondary" id="sample">サンプルを登録</button><button class="secondary" id="clear">全デッキを削除</button><button class="secondary" id="export">JSONエクスポート</button><button class="secondary" id="import">JSONインポート</button><input id="importFile" type="file" accept="application/json" hidden></div>
+<div class="controls primary-actions"><button id="add">デッキを登録</button><button id="analyze">登録済みデッキを分析</button><button class="secondary" id="append">コピーしたデッキを登録</button><button class="secondary" id="sample">サンプルを登録</button><button class="secondary" id="clear">全デッキを削除</button><button class="secondary" id="export">JSONエクスポート</button><button class="secondary" id="import">JSONインポート</button><input id="importFile" type="file" accept="application/json" hidden></div>
 <div id="status" class="status"></div><div id="errors" class="error-box hidden"></div>
 <div class="info-box"><p>Arena cards欄にある装備・武器なども集計対象に含めます（ヒーロー別集計の合計枚数は除外）。</p></div>
 <p class="hint">デッキを1件ずつ入力して登録します。登録済みデッキはブラウザに保存されるため、入力欄の文字数制限を受けません。カード行は <code>2x Card Name (red)</code> の形式です。Blood Harvestは色指定なしで入力できます。</p><div id="deckList" class="small"></div></section>
