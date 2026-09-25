@@ -5,14 +5,90 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>FaBrary Draft Deck Analyzer</title>
 <style>
-:root{color-scheme:dark;--bg:#111827;--panel:#1f2937;--line:#4b5563;--muted:#9ca3af;--red:#ef4444;--yellow:#eab308;--blue:#3b82f6;--error:#fca5a5;--ok:#86efac}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f9fafb;font-family:system-ui,-apple-system,"Yu Gothic",Meiryo,sans-serif}.wrap{max-width:1400px;margin:auto;padding:28px 4% 60px}h1{margin:0 0 8px}h2{margin:0 0 16px}.muted,.hint{color:var(--muted)}.panel,.summary{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;margin:18px 0}textarea{width:100%;min-height:360px;background:#0b1220;color:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;font:14px/1.55 monospace}textarea:focus{outline:2px solid #6366f1}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}button{border:0;border-radius:7px;padding:10px 15px;background:#4f46e5;color:white;font-weight:700;cursor:pointer}button.secondary{background:#4b5563}button.tab{background:#374151}button.tab.active{background:#4f46e5}button.sort-button{padding:0;background:transparent;color:inherit;font:inherit;text-align:left}button.sort-button:hover,button.sort-button:focus{color:#fff;text-decoration:underline}label{color:var(--muted);font-size:14px}.status{min-height:24px;margin-top:12px}.error{color:var(--error)}.ok{color:var(--ok)}.error-box{margin-top:12px;padding:12px;border:1px solid #991b1b;border-radius:8px;background:#450a0a;color:#fecaca}.error-box h3{margin:0 0 8px;font-size:15px}.error-box ul{margin:0;padding-left:22px}.info-box{margin:14px 0;padding:12px 14px;border-left:4px solid #818cf8;background:#172554;color:#dbeafe}.info-box h3{margin:0 0 6px;font-size:15px}.info-box p{margin:4px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.summary{margin:0;border-top:4px solid #9ca3af}.summary:last-child{display:none}.summary.red{border-top-color:var(--red)}.summary.yellow{border-top-color:var(--yellow)}.summary.blue{border-top-color:var(--blue)}.summary .label{color:var(--muted);font-size:13px}.summary .value{font-size:30px;font-weight:800}table{border-collapse:collapse;width:100%;min-width:650px}th,td{padding:10px 12px;border-bottom:1px solid #374151;text-align:left}th{background:#273244;color:#d1d5db;font-size:13px}.scroll{overflow:auto}.badge{display:inline-block;min-width:42px;text-align:center;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:700}.red.badge{background:var(--red)}.yellow.badge{background:var(--yellow);color:#111}.blue.badge{background:var(--blue)}.hidden{display:none}code{color:#c4b5fd}.small{font-size:13px;color:var(--muted)}
+:root{color-scheme:dark;--bg:#0b1020;--bg2:#131d36;--panel:rgba(24,36,64,.9);--line:#334155;--muted:#93a4c5;--red:#ef4444;--yellow:#eab308;--blue:#3b82f6;--error:#fca5a5;--ok:#86efac;--accent:#6366f1}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;min-height:100svh;background:radial-gradient(1200px 700px at 15% -10%,#1d2d59 0%,transparent 55%),radial-gradient(900px 600px at 100% 0,#1d2350 0%,transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2));color:#f9fafb;font-family:system-ui,-apple-system,"Yu Gothic",Meiryo,sans-serif;line-height:1.5}
+.wrap{max-width:1400px;margin:auto;padding:28px 4% 60px}
+h1{margin:0 0 8px;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:.01em}
+h2{margin:0 0 16px;font-size:clamp(1.1rem,2.8vw,1.35rem)}
+.muted,.hint{color:var(--muted)}
+.panel,.summary{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 10px 30px rgba(0,0,0,.24)}
+textarea{width:100%;min-height:360px;background:#0a1327;color:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font:14px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}
+button{border:0;border-radius:10px;padding:11px 16px;background:linear-gradient(180deg,#6366f1,#4f46e5);color:white;font-weight:700;cursor:pointer;box-shadow:0 6px 16px rgba(79,70,229,.35);transition:transform .15s ease,filter .15s ease}
+button:hover{filter:brightness(1.05)}
+button:active{transform:translateY(1px)}
+button.secondary{background:linear-gradient(180deg,#4b5563,#374151);box-shadow:none}
+button.tab{background:linear-gradient(180deg,#374151,#1f2937);box-shadow:none}
+button.tab.active{background:linear-gradient(180deg,#6366f1,#4f46e5)}
+button.sort-button{padding:0;background:transparent;color:inherit;font:inherit;text-align:left;box-shadow:none}
+button.sort-button:hover,button.sort-button:focus{color:#fff;text-decoration:underline}
+input[type="search"]{flex:1;min-width:220px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#0a1327;color:#fff}
+input[type="search"]:focus{outline:2px solid var(--accent);outline-offset:1px}
+label{color:var(--muted);font-size:14px}
+.status{min-height:24px;margin-top:12px}
+.error{color:var(--error)}
+.ok{color:var(--ok)}
+.error-box{margin-top:12px;padding:12px;border:1px solid #991b1b;border-radius:10px;background:#450a0a;color:#fecaca}
+.error-box h3{margin:0 0 8px;font-size:15px}
+.error-box ul{margin:0;padding-left:22px}
+.info-box{margin:14px 0;padding:12px 14px;border-left:4px solid #818cf8;background:#172554;color:#dbeafe;border-radius:10px}
+.info-box h3{margin:0 0 6px;font-size:15px}
+.info-box p{margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.summary{margin:0;border-top:4px solid #9ca3af}
+.summary:last-child{display:none}
+.summary.red{border-top-color:var(--red)}
+.summary.yellow{border-top-color:var(--yellow)}
+.summary.blue{border-top-color:var(--blue)}
+.summary .label{color:var(--muted);font-size:13px}
+.summary .value{font-size:30px;font-weight:800}
+table{border-collapse:collapse;width:100%;min-width:650px}
+th,td{padding:10px 12px;border-bottom:1px solid #334155;text-align:left}
+th{background:#24354f;color:#d1d5db;font-size:13px}
+.scroll{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid #2a3a59;border-radius:12px}
+.badge{display:inline-block;min-width:42px;text-align:center;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:700}
+.red.badge{background:var(--red)}
+.yellow.badge{background:var(--yellow);color:#111}
+.blue.badge{background:var(--blue)}
+.hidden{display:none}
+code{color:#c4b5fd}
+.small{font-size:13px;color:var(--muted)}
+
+@supports (color: color-mix(in oklab, black, white)){
+  .panel,.summary{border-color:color-mix(in oklab, var(--line), #fff 10%)}
+}
+
+@supports (backdrop-filter: blur(8px)){
+  @media (min-width:641px){
+    .panel,.summary{backdrop-filter:blur(8px)}
+  }
+}
+
+@media (max-width:900px){
+  .wrap{padding:20px 14px 40px}
+  .panel,.summary{border-radius:14px;padding:16px}
+  textarea{min-height:300px}
+}
+
+@media (max-width:640px){
+  .controls{gap:10px}
+  .primary-actions #add,.primary-actions #analyze{display:flex;width:100%;justify-content:center}
+  input[type="search"]{min-width:0;width:100%}
+  .grid{grid-template-columns:1fr}
+  .summary .value{font-size:26px}
+  table{min-width:560px}
+  th,td{padding:9px 10px}
+  .small{font-size:12px}
+}
 </style>
 </head>
 <body><main class="wrap">
 <h1>FaBrary Draft Deck Analyzer</h1>
 <p class="muted">FaBrary形式の複数デッキリストから、赤・黄・青カードの平均枚数とカード別・ヒーロー別統計を計算します。</p>
 <section class="panel"><h2>デッキリスト入力</h2><textarea id="input" spellcheck="false"></textarea>
-<div class="controls"><button id="add">デッキを登録</button><button id="analyze">登録済みデッキを分析</button><button class="secondary" id="append">コピーしたデッキを登録</button><button class="secondary" id="sample">サンプルを登録</button><button class="secondary" id="clear">全デッキを削除</button><button class="secondary" id="export">JSONエクスポート</button><button class="secondary" id="import">JSONインポート</button><input id="importFile" type="file" accept="application/json" hidden></div>
+<div class="controls primary-actions"><button id="add">デッキを登録</button><button id="analyze">登録済みデッキを分析</button><button class="secondary" id="append">コピーしたデッキを登録</button><button class="secondary" id="sample">サンプルを登録</button><button class="secondary" id="clear">全デッキを削除</button><button class="secondary" id="export">JSONエクスポート</button><button class="secondary" id="import">JSONインポート</button><input id="importFile" type="file" accept="application/json" hidden></div>
 <div id="status" class="status"></div><div id="errors" class="error-box hidden"></div>
 <div class="info-box"><p>Arena cards欄にある装備・武器なども集計対象に含めます（ヒーロー別集計の合計枚数は除外）。</p></div>
 <p class="hint">デッキを1件ずつ入力して登録します。登録済みデッキはブラウザに保存されるため、入力欄の文字数制限を受けません。カード行は <code>2x Card Name (red)</code> の形式です。Blood Harvestは色指定なしで入力できます。</p><div id="deckList" class="small"></div></section>
