@@ -7,12 +7,12 @@
 <style>
 :root{color-scheme:dark;--bg:#0b1020;--bg2:#131d36;--panel:rgba(24,36,64,.9);--line:#334155;--muted:#93a4c5;--red:#ef4444;--yellow:#eab308;--blue:#3b82f6;--error:#fca5a5;--ok:#86efac;--accent:#6366f1}
 *{box-sizing:border-box}
-body{margin:0;min-height:100svh;background:radial-gradient(1200px 700px at 15% -10%,#1d2d59 0%,transparent 55%),radial-gradient(900px 600px at 100% 0,#1d2350 0%,transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2));color:#f9fafb;font-family:system-ui,-apple-system,"Yu Gothic",Meiryo,sans-serif;line-height:1.5}
+body{margin:0;min-height:100vh;min-height:100svh;background:radial-gradient(1200px 700px at 15% -10%,#1d2d59 0%,transparent 55%),radial-gradient(900px 600px at 100% 0,#1d2350 0%,transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2));color:#f9fafb;font-family:system-ui,-apple-system,"Yu Gothic",Meiryo,sans-serif;line-height:1.5}
 .wrap{max-width:1400px;margin:auto;padding:28px 4% 60px}
 h1{margin:0 0 8px;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:.01em}
 h2{margin:0 0 16px;font-size:clamp(1.1rem,2.8vw,1.35rem)}
 .muted,.hint{color:var(--muted)}
-.panel,.summary{background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(8px);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 10px 30px rgba(0,0,0,.24)}
+.panel,.summary{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 10px 30px rgba(0,0,0,.24)}
 textarea{width:100%;min-height:360px;background:#0a1327;color:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font:14px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
 .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}
@@ -56,8 +56,14 @@ th{background:#24354f;color:#d1d5db;font-size:13px}
 code{color:#c4b5fd}
 .small{font-size:13px;color:var(--muted)}
 
-@supports (color:color-mix(in oklab,black,white)){
-  .panel,.summary{border-color:color-mix(in oklab,var(--line),#fff 10%)}
+@supports (color: color-mix(in oklab, black, white)){
+  .panel,.summary{border-color:color-mix(in oklab, var(--line), #fff 10%)}
+}
+
+@supports (backdrop-filter: blur(8px)){
+  @media (min-width:641px){
+    .panel,.summary{backdrop-filter:blur(8px)}
+  }
 }
 
 @media (max-width:900px){
