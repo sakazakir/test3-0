@@ -12,7 +12,7 @@ body{margin:0;min-height:100svh;background:radial-gradient(1200px 700px at 15% -
 h1{margin:0 0 8px;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:.01em}
 h2{margin:0 0 16px;font-size:clamp(1.1rem,2.8vw,1.35rem)}
 .muted,.hint{color:var(--muted)}
-.panel,.summary{background:var(--panel);border:1px solid color-mix(in oklab,var(--line),#fff 10%);backdrop-filter:blur(8px);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 10px 30px rgba(0,0,0,.24)}
+.panel,.summary{background:var(--panel);border:1px solid var(--line);border-color:color-mix(in oklab,var(--line),#fff 10%);backdrop-filter:blur(8px);border-radius:16px;padding:20px;margin:18px 0;box-shadow:0 10px 30px rgba(0,0,0,.24)}
 textarea{width:100%;min-height:360px;background:#0a1327;color:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font:14px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
 .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}
@@ -47,7 +47,7 @@ label{color:var(--muted);font-size:14px}
 table{border-collapse:collapse;width:100%;min-width:650px}
 th,td{padding:10px 12px;border-bottom:1px solid #334155;text-align:left}
 th{background:#24354f;color:#d1d5db;font-size:13px;position:sticky;top:0;z-index:1}
-.scroll{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid #2a3a59;border-radius:12px}
+.scroll{overflow:auto;overflow:clip auto;-webkit-overflow-scrolling:touch;border:1px solid #2a3a59;border-radius:12px}
 .badge{display:inline-block;min-width:42px;text-align:center;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:700}
 .red.badge{background:var(--red)}
 .yellow.badge{background:var(--yellow);color:#111}
@@ -64,6 +64,7 @@ code{color:#c4b5fd}
 
 @media (max-width:640px){
   .controls{gap:10px}
+  .panel,.summary{backdrop-filter:none}
   .controls button:not(.tab){width:100%;justify-content:center}
   #heroTabs.controls button.tab{width:auto}
   input[type="search"]{min-width:0;width:100%}
